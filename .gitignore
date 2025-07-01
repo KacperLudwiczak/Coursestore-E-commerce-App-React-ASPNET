@@ -41,3 +41,5 @@ desktop.ini
 # === VS Code ===
 *.code-workspace
 .history/
+API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
+API/obj/Debug/net9.0/API.AssemblyInfo.cs
