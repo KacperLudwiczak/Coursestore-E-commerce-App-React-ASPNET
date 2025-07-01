@@ -6,6 +6,9 @@
 *.sln.docstates
 *.cache
 *.log
+*.db
+*.db-shm
+*.db-wal
 
 # Build results
 bin/
