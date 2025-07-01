@@ -66,3 +66,5 @@ API/obj/Debug/net9.0/API.AssemblyInfo.cs
 API/obj/Debug/net9.0/API.GeneratedMSBuildEditorConfig.editorconfig
 API/obj/Debug/net9.0/API.GeneratedMSBuildEditorConfig.editorconfig
 API/obj/Debug/net9.0/API.csproj.AssemblyReference.cache
+API/coursestore.db-shm
+API/coursestore.db-wal
