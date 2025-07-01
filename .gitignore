@@ -33,6 +33,26 @@ build/
 .env
 .env.*.local
 
+# Ignore .NET build output
+bin/
+obj/
+*.nupkg
+*.dll
+*.pdb
+*.exe
+*.cache
+*.log
+
+# Ignore NuGet
+packages/
+*.nuspec
+*.nupkg
+
+# React + Node
+node_modules/
+build/
+dist/
+
 # === OS Files ===
 .DS_Store
 Thumbs.db
@@ -43,3 +63,6 @@ desktop.ini
 .history/
 API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
 API/obj/Debug/net9.0/API.AssemblyInfo.cs
+API/obj/Debug/net9.0/API.GeneratedMSBuildEditorConfig.editorconfig
+API/obj/Debug/net9.0/API.GeneratedMSBuildEditorConfig.editorconfig
+API/obj/Debug/net9.0/API.csproj.AssemblyReference.cache
