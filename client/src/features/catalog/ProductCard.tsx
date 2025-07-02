@@ -17,12 +17,18 @@ export default function ProductCard({product}: Props) {
             justifyContent: 'space-between'
         }}
     >
-        <CardMedia 
+         <CardMedia 
             sx={{height: 240, backgroundSize: 'cover'}}
-            image={product.pictureUrl}
+            image={`https://localhost:5001${product.pictureUrl}`}
             title={product.name}
         />
+        {/* <CardMedia 
+            sx={{height: 240, backgroundSize: 'cover'}}
+            title={product.name}
+        ><img src={`https://localhost:5001${product.pictureUrl}`} />
+          </CardMedia> */}
         <CardContent>
+            
             <Typography 
                 gutterBottom
                 sx={{textTransform: 'uppercase'}} 

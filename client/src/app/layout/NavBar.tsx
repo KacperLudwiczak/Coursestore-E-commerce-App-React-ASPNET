@@ -10,7 +10,7 @@ export default function NavBar({darkMode, toggleDarkMode}: Props) {
     return (
         <AppBar position="fixed">
             <Toolbar>
-                <Typography variant="h6">RE-STORE</Typography>
+                <Typography variant="h6">COURSESTORE</Typography>
                 <IconButton onClick={toggleDarkMode}>
                     {darkMode ? <DarkMode /> : <LightMode sx={{color: 'yellow'}} /> }
                 </IconButton>
