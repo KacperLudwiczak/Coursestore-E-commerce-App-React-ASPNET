@@ -52,22 +52,31 @@ public class DbInitializer
             QuantityInStock = 60
         },
         new() {
-            Name = "React for Frontend Developers",
-            Description = "Learn how to build powerful single-page applications using React. Covers components, hooks, context, and project structure.",
-            Price = 20000,
-            PictureUrl = "/images/products/react.jpg",
-            Author = "Reactive Labs",
-            Type = "Web Development",
-            QuantityInStock = 45
+            Name = "Docker & Kubernetes Crash Course",
+            Description = "Learn containerization and orchestration with Docker and Kubernetes. Build, deploy, and scale applications in modern dev environments.",
+            Price = 21000,
+            PictureUrl = "/images/products/docker.jpg",
+            Author = "CloudOps School",
+            Type = "DevOps",
+            QuantityInStock = 25
         },
         new() {
-            Name = "ASP.NET Core Web API Bootcamp",
-            Description = "Learn to create RESTful APIs using ASP.NET Core, Entity Framework, and secure authentication. Ideal for building scalable backend services.",
-            Price = 22000,
-            PictureUrl = "/images/products/aspnet.jpg",
-            Author = "Backenders Inc.",
+            Name = "Angular Complete Guide",
+            Description = "Learn Angular from basics to advanced. Includes routing, components, forms, HTTP, RxJS, and deployment.",
+            Price = 19000,
+            PictureUrl = "/images/products/angular.jpg",
+            Author = "Angular Pros",
+            Type = "Web Development",
+            QuantityInStock = 38
+        },
+        new() {
+            Name = "Node.js API Development",
+            Description = "Build scalable backend services using Node.js, Express, and MongoDB. Learn routing, middleware, JWT authentication, and deployment.",
+            Price = 19000,
+            PictureUrl = "/images/products/node.jpg",
+            Author = "Backend Ninjas",
             Type = "Backend Development",
-            QuantityInStock = 30
+            QuantityInStock = 45
         },
         new() {
             Name = "SQL & Databases for Developers",
@@ -88,6 +97,24 @@ public class DbInitializer
             QuantityInStock = 70
         },
         new() {
+            Name = "React for Frontend Developers",
+            Description = "Learn how to build powerful single-page applications using React. Covers components, hooks, context, and project structure.",
+            Price = 20000,
+            PictureUrl = "/images/products/react.jpg",
+            Author = "Reactive Labs",
+            Type = "Web Development",
+            QuantityInStock = 45
+        },
+        new() {
+            Name = "ASP.NET Core Web API Bootcamp",
+            Description = "Learn to create RESTful APIs using ASP.NET Core, Entity Framework, and secure authentication. Ideal for building scalable backend services.",
+            Price = 22000,
+            PictureUrl = "/images/products/aspnet.jpg",
+            Author = "Backenders Inc.",
+            Type = "Backend Development",
+            QuantityInStock = 30
+        },
+        new() {
             Name = "TypeScript in Depth",
             Description = "Master TypeScript with advanced types, interfaces, generics, and integration with modern JavaScript frameworks.",
             Price = 17000,
@@ -104,33 +131,6 @@ public class DbInitializer
             Author = "DevOps University",
             Type = "Tools",
             QuantityInStock = 80
-        },
-        new() {
-            Name = "Angular Complete Guide",
-            Description = "Learn Angular from basics to advanced. Includes routing, components, forms, HTTP, RxJS, and deployment.",
-            Price = 19000,
-            PictureUrl = "/images/products/angular.jpg",
-            Author = "Angular Pros",
-            Type = "Web Development",
-            QuantityInStock = 38
-        },
-        new() {
-            Name = "Docker & Kubernetes Crash Course",
-            Description = "Learn containerization and orchestration with Docker and Kubernetes. Build, deploy, and scale applications in modern dev environments.",
-            Price = 21000,
-            PictureUrl = "/images/products/docker.jpg",
-            Author = "CloudOps School",
-            Type = "DevOps",
-            QuantityInStock = 25
-        },
-        new() {
-            Name = "Node.js API Development",
-            Description = "Build scalable backend services using Node.js, Express, and MongoDB. Learn routing, middleware, JWT authentication, and deployment.",
-            Price = 19000,
-            PictureUrl = "/images/products/node.jpg",
-            Author = "Backend Ninjas",
-            Type = "Backend Development",
-            QuantityInStock = 45
         },
         };
 

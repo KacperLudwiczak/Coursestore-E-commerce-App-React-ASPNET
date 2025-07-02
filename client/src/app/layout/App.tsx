@@ -12,9 +12,23 @@ function App() {
   const theme = createTheme({
     palette: {
       mode: palleteType,
+      primary: {
+        main: '#7b3fe4', // Light Purple
+      },
+      secondary: {
+        main: '#ae9cff' // Softer accent
+      },
       background: {
-        default: (palleteType === 'light') ? '#eaeaea' : '#121212'
+        default: darkMode ? '#1b1035' : '#fdfbff',
+        paper: darkMode ? '#271753' : '#ffffff'
+      },
+      text: {
+        primary: darkMode ? '#ffffff' : '#2c003e', 
+        secondary: darkMode ? '#d1c4e9' : '#5c3d99'
       }
+    },
+    typography: {
+      fontFamily: 'Roboto, sans-serif',
     }
   });
 
@@ -36,8 +50,8 @@ function App() {
         sx={{
           minHeight: '100vh',
           background: darkMode 
-            ? 'radial-gradient(circle, #1e3aBa, #111B27)'
-            : 'radial-gradient(circle, #baecf9, #f0f9ff)',
+            ? 'radial-gradient(circle, #271753, #1b1035)'
+            : 'radial-gradient(circle, #f3e9ff, #ffffff)',
           py: 6
         }}
       >
