@@ -38,6 +38,7 @@ return (
                     typography: 'h6',
                     textDecoration: 'none',
                     '&:hover': {fontWeight: 'bold'},
+                    '&.active': {typography: 'h5', fontWeight: 'bold'}
                     }} 
                     >COURSESTORE</Typography>
                     <IconButton onClick={toggleDarkMode} sx={{ ml: 1 }}>
@@ -58,7 +59,7 @@ return (
                             typography: 'h6',
                             textDecoration: 'none',
                             '&:hover': {fontWeight: 'bold'},
-                            '&.active': {textDecoration: 'underline', textUnderlineOffset: '4px'}}} 
+                            '&.active': {typography: 'h5', fontWeight: 'bold'}}} 
                         >
                             {title.toUpperCase()}
                         </ListItem>
@@ -82,6 +83,7 @@ return (
                                 typography: 'h6',
                                 textDecoration: 'none',
                                 '&:hover': {fontWeight: 'bold'},
+                                '&.active': {typography: 'h5', fontWeight: 'bold'}
                                 }} 
                             >
                                 {title.toUpperCase()}

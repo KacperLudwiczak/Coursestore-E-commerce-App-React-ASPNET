@@ -25,7 +25,7 @@ public class DbInitializer
         var products = new List<Product>
         {
         new() {
-            Name = "Complete C# Developer Course",
+            Name = "C# Developer Course",
             Description = "Master C# programming with hands-on projects. Covers OOP, .NET, ASP.NET Core, and more. Ideal for backend and full-stack developers.",
             Price = 18000,
             PictureUrl = "/images/products/csharp.jpg",
@@ -52,7 +52,7 @@ public class DbInitializer
             QuantityInStock = 60
         },
         new() {
-            Name = "Docker & Kubernetes Crash Course",
+            Name = "Docker Crash Course",
             Description = "Learn containerization and orchestration with Docker and Kubernetes. Build, deploy, and scale applications in modern dev environments.",
             Price = 21000,
             PictureUrl = "/images/products/docker.jpg",
@@ -79,7 +79,7 @@ public class DbInitializer
             QuantityInStock = 45
         },
         new() {
-            Name = "SQL & Databases for Developers",
+            Name = "SQL for Developers",
             Description = "Understand relational databases, SQL queries, joins, and optimization. A must-have for any serious developer working with data.",
             Price = 14000,
             PictureUrl = "/images/products/sql.jpg",
@@ -88,7 +88,7 @@ public class DbInitializer
             QuantityInStock = 55
         },
         new() {
-            Name = "Python Programming Fundamentals",
+            Name = "Python Fundamentals",
             Description = "Learn Python from the ground up. Covers syntax, control flow, data structures, and hands-on projects. Great for automation and backend dev.",
             Price = 16000,
             PictureUrl = "/images/products/python.jpg",
@@ -97,7 +97,7 @@ public class DbInitializer
             QuantityInStock = 70
         },
         new() {
-            Name = "React for Frontend Developers",
+            Name = "React for Developers",
             Description = "Learn how to build powerful single-page applications using React. Covers components, hooks, context, and project structure.",
             Price = 20000,
             PictureUrl = "/images/products/react.jpg",
@@ -106,7 +106,7 @@ public class DbInitializer
             QuantityInStock = 45
         },
         new() {
-            Name = "ASP.NET Core Web API Bootcamp",
+            Name = "ASP.NET Core Bootcamp",
             Description = "Learn to create RESTful APIs using ASP.NET Core, Entity Framework, and secure authentication. Ideal for building scalable backend services.",
             Price = 22000,
             PictureUrl = "/images/products/aspnet.jpg",
