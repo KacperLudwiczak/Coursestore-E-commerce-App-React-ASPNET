@@ -93,7 +93,7 @@ return (
                 </Box>
         </Toolbar>
          {isLoading && (
-                <Box sx={{width: '100%'}}>Add commentMore actions
+                <Box sx={{width: '100%'}}>
                     <LinearProgress color="secondary" />
                 </Box>
         )}

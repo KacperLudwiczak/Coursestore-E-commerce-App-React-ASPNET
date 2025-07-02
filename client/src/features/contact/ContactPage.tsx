@@ -15,7 +15,7 @@ export default function ContactPage() {
         The data is: {data}
       </Typography>
       <ButtonGroup>
-        <Button onClick={() => dispatch(decrement(1))} color="error">Decrement</Button>Add commentMore actions
+        <Button onClick={() => dispatch(decrement(1))} color="error">Decrement</Button>
         <Button onClick={() => dispatch(increment(1))} color="secondary">Increment</Button>
         <Button onClick={() => dispatch(increment(5))} color="primary">Increment by 5</Button>
       </ButtonGroup>
