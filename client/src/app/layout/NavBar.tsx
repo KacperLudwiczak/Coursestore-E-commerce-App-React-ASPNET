@@ -35,22 +35,26 @@ return (
     >
             <Toolbar sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                 <Box display='flex' alignItems='center'>
-                    <Typography component={NavLink} to='/' variant="h6" 
+                <img 
+                    src="/ebook.png" 
+                    alt="CourseStore Icon" 
+                    style={{ width: 30, height: 30, marginRight: 8 }} 
+                />
+                <Typography 
+                    component={NavLink} 
+                    to='/' 
+                    variant="h6"
                     sx={{   
                     color: theme.palette.mode === 'light' ? '#7b3fe4' : 'text.primary',
                     typography: 'h6',
                     textDecoration: 'none',
-                    '&:hover': {fontWeight: 'bold'},
-                    '&.active': {typography: 'h5', fontWeight: 'bold'}
-                    }} 
-                    >COURSESTORE</Typography>
-                    <IconButton onClick={() => dispatch(setDarkMode())} sx={{ ml: 1 }}>
-                    {darkMode
-                        ? <DarkMode sx={{ color: '#fff' }} />
-                        : <LightMode sx={{ color: '#7b3fe4' }} />}
-                </IconButton>
+                    '&:hover': { fontWeight: 'bold' },
+                    '&.active': { typography: 'h5', fontWeight: 'bold' }
+                    }}
+                >
+                    COURSESTORE
+                </Typography>
                 </Box>
-
                 <List sx={{ display: 'flex' }}>
                     {midLinks.map(({ title, path }) => (
                         <ListItem
@@ -93,9 +97,14 @@ return (
                             </ListItem>
                         ))}
                     </List>
+                    <IconButton onClick={() => dispatch(setDarkMode())} sx={{ ml: 1 }}>
+                    {darkMode
+                        ? <DarkMode sx={{ color: '#fff' }} />
+                        : <LightMode sx={{ color: '#7b3fe4' }} />}
+                </IconButton>
                 </Box>
         </Toolbar>
-         {isLoading && (
+        {isLoading && (
                 <Box sx={{width: '100%'}}>
                     <LinearProgress color="secondary" />
                 </Box>
